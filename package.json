@@ -4,6 +4,7 @@
     "type": "git",
     "url": "https://github.com/revisedae/redae.git"
   },
+  "license": "MIT",
   "author": "Dmitriy Chukhno <me@dmitr1sdae.com>",
   "workspaces": [
     "packages/*"
