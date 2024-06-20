@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["lib/components/index.ts"],
+      "@context": ["lib/context/index.ts"],
+      "@history": ["lib/history/index.ts"],
+      "@hooks": ["lib/hooks/index.ts"],
+      "@router": ["lib/router/index.ts"],
+      "@types": ["lib/types/index.ts"],
+      "@utils": ["lib/utils/index.ts"]
+    }
+  },
+  "extends": "../../tsconfig.base.json"
+}
