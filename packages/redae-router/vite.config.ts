@@ -14,7 +14,7 @@ export default defineConfig({
     lib: {
       entry: {
         index: resolve(__dirname, "lib/index.ts"),
-        server: resolve(__dirname, "lib/server/index.ts")
+        server: resolve(__dirname, "lib/server.ts")
       },
       formats: ["es"],
     },
