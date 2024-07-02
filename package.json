@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "lerna run build --parallel",
     "publish": "lerna run publish --parallel"
   },
   "devDependencies": {
