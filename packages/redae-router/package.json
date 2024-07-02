@@ -1,6 +1,6 @@
 {
   "name": "@redae/router",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "redae routing for React",
   "license": "MIT",
   "type": "module",
@@ -16,9 +16,6 @@
   "files": [
     "dist/**/*"
   ],
-  "scripts": {
-    "build": "tsc && vite build"
-  },
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
