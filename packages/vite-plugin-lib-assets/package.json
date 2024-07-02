@@ -1,6 +1,6 @@
 {
   "name": "@redae/vite-plugin-lib-assets",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Vite Plugin extracts resource files referenced in library mode instead of embedded them as base64.",
   "license": "MIT",
   "type": "module",
