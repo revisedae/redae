@@ -1,0 +1,35 @@
+{
+  "name": "@redae/vite-plugin-lib-assets",
+  "version": "0.1.0",
+  "description": "A Vite Plugin extracts resource files referenced in library mode instead of embedded them as base64.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "publish": "yarn npm publish --tolerate-republish"
+  },
+  "dependencies": {
+    "loader-utils": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/loader-utils": "^2.0.6",
+    "typescript": "5.4.2",
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0 || ^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
