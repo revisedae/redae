@@ -1,6 +1,6 @@
 {
   "name": "@redae/nextjs-combine-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware management for Next.js based on pathname matching.",
   "keywords": [
     "next.js",
